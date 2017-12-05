@@ -5,30 +5,81 @@ window.addEventListener('resize', resizeCanvas, false);
 
 var canvas;
 var ctxt;
+let tableauObjetGraphiques;
+let colorBasique =  "#677179";
+let positionnementY=innerHeight/4;
+
 
 function init()
 {
+    tableauObjetGraphiques=[];
     canvas = document.querySelector("#myCanvas");
     ctxt= canvas.getContext("2d");
+    canvas.addEventListener("mousemove",onMouseMove)
+    //canvas.addEventListener("click",onMouseOver)
     resizeCanvas();
-    let b1 = new Button("Salut", 90);
-    b1.dessine();
+    implementatioButton();
+
+}
+function implementatioButton()
+{
+    createButton("Jouer");
+    createButton("Options");
+    createButton("Score");
+    /*createButton("Options");
+    createButton("Score");*/
 
 
 }
-function implementatioButton(button)
+function createButton(texte)
 {
-    button.addEventListener("click",onClick);
-    button.addEventListener("mouseover",onMouseOver);
+    let button = new Button(texte);
     button.dessine();
-}
-// to do faire l'event
-function onClick()
-{
+    tableauObjetGraphiques.push(button);
+    positionnementY+=(button.height+35);
 
 }
-function onMouseOver()
+/*function anime() {
+    tableauObjetGraphiques.forEach(function (bouton) {
+        bouton.dessine();
+    });
+    requestAnimationFrame(anime);
+}*/
+
+// to do faire l'event
+/*function onClick()
 {
+
+}*/
+function onMouseMove(event)
+{
+    let posX= event.pageX;
+    let posY= event.pageY;
+   // console.log("X|"+event.pageX|"|Y|"+event.pageY);
+    console.log(event.pageX+"|"+event.pageY);
+    tableauObjetGraphiques.forEach(function (bouton) {
+        if((posX>=(bouton._positionX-bouton._width/2) && posX<=(bouton._positionX+bouton._width/2)) // divisé par deux la taille car la positionX = le milieux
+        && (posY>=bouton._positionY && posY<=(bouton._positionY+bouton._height)))
+        {
+            bouton._color = "#FFFFFF";
+            bouton._colorTexte = "#000000";
+
+            console.log("Couleur onMove" + bouton._color);
+        }
+        else {
+            bouton._color = colorBasique;
+            bouton._colorTexte = "#FFFFFF";
+        }
+        bouton.dessine();
+
+    })
+
+   /* if((posX>tableauObjetGraphiques[0].positionX && posX<tableauObjetGraphiques[0].positionX+tableauObjetGraphiques[0].width)
+        && posY<tableauObjetGraphiques[0].positionY && posX<tableauObjetGraphiques[0].positionY+tableauObjetGraphiques[0].height)
+    {
+        console.log("caMarche");
+    }*/
+
 
 }
 
@@ -38,14 +89,30 @@ function resizeCanvas() {
 }
 
 class Button {
+    get rect() {
+        return this._rect;
+    }
+
+    set rect(value) {
+        this._rect = value;
+    }
+    get fillStyle() {
+        return this._fillStyle;
+    }
+    set fillStyle(value) {
+        this._fillStyle = value;
+    }
 
     constructor(text) {
         this._width=window.innerWidth/6;
         this._height = window.innerHeight/8;
         this._text = text;
         this._positionX = window.innerWidth/2;
-        this._positionY =  window.innerHeight/4;
-        this._color =  "#ECE8E8";
+        this._positionY =  positionnementY;
+        this._color =  "#677179";
+        this._colorTexte =  "#FFFFFF";
+        this._fillStyle=0;
+        this._rect=0;
     }
     get text() {
         return this._text;
@@ -73,13 +140,14 @@ class Button {
     dessine()
     {
         ctxt.save();
-        console.log("je dessine "+this.text);
         // x, y, largeur, hauteur. Origine = le coin
-        ctxt.translate(this._positionX-(this.width/2), this._positionY);
+        ctxt.translate(this.positionX-(this.width/2), this.positionY);
 
-        // en haut à gauche
         ctxt.fillStyle =  this.color; // valeur = une couleur CSS3
-        ctxt.fillRect(0, 0, this.width, this.height);
-
+        this._fillStyle = ctxt.fillStyle;
+        this._rect = ctxt.fillRect(0, 0, this.width, this.height);
+        ctxt.strokeStyle=this._colorTexte;
+        ctxt.strokeText(this.text,this.width/3+20,this.height/2);
+        ctxt.restore();
     }
 }

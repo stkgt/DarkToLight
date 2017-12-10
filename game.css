@@ -1,0 +1,9 @@
+#myCanvas
+{
+    border: 1px solid black;
+    /*cursor: url("./Sprites/Interface/Cursor.png"),url("./Sprites/Interface/Cursor.cur"), auto;*/
+    background: url('./Sprites/Background/BG_5.png');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}

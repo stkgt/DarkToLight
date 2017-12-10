@@ -1,5 +1,4 @@
 
-
 window.onload = init;
 window.addEventListener('resize', resizeCanvas, false);
 

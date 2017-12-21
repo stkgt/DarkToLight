@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="616c7200-f6bd-4f69-bab6-08f6d3cd87eb" name="Default" comment="Ajout des sprites et debut jeu">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Monster.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Poulpe.js" />
+    <list default="true" id="616c7200-f6bd-4f69-bab6-08f6d3cd87eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game.css" afterPath="$PROJECT_DIR$/game.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game.html" afterPath="$PROJECT_DIR$/game.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game.js" afterPath="$PROJECT_DIR$/game.js" />
     </list>
     <ignored path=".idea/DarkToLight.iml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -294,7 +288,7 @@
       <workItem from="1513793682728" duration="4787000" />
       <workItem from="1513806948283" duration="7693000" />
       <workItem from="1513817095903" duration="76000" />
-      <workItem from="1513843605964" duration="414000" />
+      <workItem from="1513843605964" duration="571000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des sprites et debut jeu">
       <created>1512928945216</created>
@@ -303,15 +297,21 @@
       <option name="project" value="LOCAL" />
       <updated>1512928945216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajout animations sprites et modification gameplay">
+      <created>1513844140956</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1513844140956</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69538000" />
+    <option name="totallyTimeSpent" value="69695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14479166" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -342,7 +342,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout des sprites et debut jeu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout des sprites et debut jeu" />
+    <MESSAGE value="Ajout animations sprites et modification gameplay" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout animations sprites et modification gameplay" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

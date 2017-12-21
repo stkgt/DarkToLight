@@ -2,42 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="616c7200-f6bd-4f69-bab6-08f6d3cd87eb" name="Default" comment="Ajout des sprites et debut jeu">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Background/BG_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Interface/Cursor.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Interface/Cursor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Interface/Jauges/Vie_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Interface/Jauges/Vie_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Interface/Resources/Cursor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Interface/Title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Attaque_1/Attaque_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Attaque_1/Attaque_12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Attaque_1/Attaque_13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Attaque_2/Attaque_21.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Attaque_2/Attaque_22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Attaque_2/Attaque_23.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Attaque_3/Attaque_31.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Attaque_3/Attaque_32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Attaque_3/Attaque_33.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Dash/Dash_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Dash/Dash_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Death/Death.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Deplacement/Deplacement_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Deplacement/Deplacement_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Effets/Lame_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Jauge3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Neutre/Neutre_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Neutre/Neutre_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Ultime/Attaque/Ult_Att_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Ultime/Attaque/Ult_Att_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Ultime/Attaque/Ult_Att_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Ultime/Charge/Charge_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Ultime/Charge/Charge_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/testbanal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Monster.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Poulpe.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menu.js" afterPath="$PROJECT_DIR$/Menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game.css" afterPath="$PROJECT_DIR$/game.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game.html" afterPath="$PROJECT_DIR$/game.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game.js" afterPath="$PROJECT_DIR$/game.js" />
     </list>
     <ignored path=".idea/DarkToLight.iml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,18 +23,8 @@
       <file leaf-file-name="game.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -72,18 +33,73 @@
       <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+            <state relative-caret-position="170">
+              <caret line="168" column="64" lean-forward="false" selection-start-line="168" selection-start-column="64" selection-end-line="168" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Menu.js">
+      <file leaf-file-name="Attaque_11.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Attaque_1/Attaque_11.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Attaque_12.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Attaque_1/Attaque_12.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Attaque_13.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Attaque_1/Attaque_13.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spriteExemple.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spriteExemple.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spriteExemple.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spriteExemple.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="293" column="61" lean-forward="false" selection-start-line="293" selection-start-column="31" selection-end-line="293" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deplacement_01.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Deplacement/Deplacement_01.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deplacement_02.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Deplacement/Deplacement_02.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Monster.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Monster.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -94,9 +110,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -104,7 +120,21 @@
     <findStrings>
       <find>rect</find>
       <find>radius</find>
+      <find>v</find>
+      <find>rect.v</find>
+      <find>Bonhomme</find>
+      <find>angle</find>
+      <find>clicked</find>
+      <find>dist</find>
+      <find>circleCollide</find>
+      <find>img</find>
+      <find>fillStyle</find>
+      <find>htt</find>
+      <find>this.po</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Poulpe</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,9 +145,14 @@
         <option value="$PROJECT_DIR$/Menu.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/StyleSheet.css" />
-        <option value="$PROJECT_DIR$/game.js" />
         <option value="$PROJECT_DIR$/game.css" />
+        <option value="$PROJECT_DIR$/spriteExemple.js" />
+        <option value="$PROJECT_DIR$/spriteExemple.html" />
+        <option value="$PROJECT_DIR$/Entity.js" />
+        <option value="$PROJECT_DIR$/Monster.js" />
+        <option value="$PROJECT_DIR$/Poulpe.js" />
         <option value="$PROJECT_DIR$/game.html" />
+        <option value="$PROJECT_DIR$/game.js" />
       </list>
     </option>
   </component>
@@ -138,7 +173,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="669" />
+    <option name="y" value="-8" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -157,8 +193,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,36 +218,7 @@
               <item name="DarkToLight" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Sprites" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Poulpe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Attaque_3" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DarkToLight" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DarkToLight" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Sprites" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Poulpe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Deplacement" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DarkToLight" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DarkToLight" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Sprites" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Poulpe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Effets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DarkToLight" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DarkToLight" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Sprites" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Poulpe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Ultime" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="DarkToLight" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DarkToLight" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Sprites" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Poulpe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Ultime" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Attaque" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Attaque_1" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -228,13 +235,13 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\GestionProjet\DarkToLight\Sprites\Poulpe\Death" />
-      <recent name="C:\wamp64\www\GestionProjet\DarkToLight\Sprites\Interface" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\GestionProjet\DarkToLight\Sprites" />
       <recent name="C:\wamp64\www\GestionProjet\DarkToLight\Sprites\Background" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\GestionProjet\DarkToLight\Sprites\Poulpe\Death" />
+      <recent name="C:\wamp64\www\GestionProjet\DarkToLight\Sprites\Interface" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -276,23 +283,40 @@
       <workItem from="1512398143290" duration="69000" />
       <workItem from="1512403108942" duration="450000" />
       <workItem from="1512478918341" duration="72000" />
-      <workItem from="1512915658406" duration="9151000" />
+      <workItem from="1512915658406" duration="10577000" />
+      <workItem from="1512976189477" duration="5090000" />
+      <workItem from="1513092840333" duration="3779000" />
+      <workItem from="1513101303462" duration="2539000" />
+      <workItem from="1513109682185" duration="907000" />
+      <workItem from="1513582466969" duration="632000" />
+      <workItem from="1513674763138" duration="3529000" />
+      <workItem from="1513686181322" duration="3845000" />
+      <workItem from="1513793682728" duration="4787000" />
+      <workItem from="1513806948283" duration="7693000" />
+      <workItem from="1513817095903" duration="76000" />
+      <workItem from="1513843605964" duration="414000" />
     </task>
+    <task id="LOCAL-00001" summary="Ajout des sprites et debut jeu">
+      <created>1512928945216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512928945216</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34821000" />
+    <option name="totallyTimeSpent" value="69538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16770834" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14479166" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -300,11 +324,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -319,7 +345,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Ajout des sprites et debut jeu" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -327,7 +355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -335,7 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -343,7 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -351,7 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -359,7 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -367,7 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -375,7 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -383,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -391,7 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -399,7 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -407,7 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -415,7 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -423,7 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -431,7 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -439,7 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -447,7 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -455,7 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -463,7 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -471,7 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -479,7 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -487,7 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -495,7 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -503,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -511,7 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -529,41 +533,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Dash/Dash_02.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Dash/Dash_01.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Attaque_1/Attaque_11.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Attaque_1/Attaque_12.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Attaque_1/Attaque_13.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Attaque_2/Attaque_21.png">
@@ -581,7 +551,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Attaque_3/Attaque_31.png">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Attaque_3/Attaque_33.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -591,39 +568,123 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Attaque_3/Attaque_33.png">
+    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Attaque_3/Attaque_31.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Dash/Dash_02.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Dash/Dash_01.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Neutre/Neutre_01.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Neutre/Neutre_02.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Poulpe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Entity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Monster.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Deplacement/Deplacement_02.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Deplacement/Deplacement_01.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Attaque_1/Attaque_13.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Attaque_1/Attaque_11.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Attaque_1/Attaque_12.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="17">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spriteExemple.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spriteExemple.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="293" column="61" lean-forward="false" selection-start-line="293" selection-start-column="31" selection-end-line="293" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="168" column="64" lean-forward="false" selection-start-line="168" selection-start-column="64" selection-end-line="168" selection-end-column="64" />
           <folding />
         </state>
       </provider>

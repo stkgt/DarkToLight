@@ -17,7 +17,6 @@ var GameFramework = function () {
     var mousepos = {x: (window.innerWidth - 20) / 2, y: (window.innerHeight - 20) / 2};
     var poulpy;
     var tableauMonster = [];
-    var spritesInterval;
     var spawnInterval;
 
 
@@ -40,11 +39,31 @@ var GameFramework = function () {
         }, false);
         canvas.addEventListener('mousedown', clicked);
 
-        // spawnInterval = setInterval(function () {
-        //     rand
-        //
-        // })
-        //
+        spawnInterval = setInterval(function () {
+            var cote = Math.floor(Math.random() * 4) + 1;
+            if((Math.floor(Math.random() * 100) + 1)<=20){
+                if(cote === 1){
+                    tableauMonster.push(new Monster(-20, (Math.floor(Math.random() * canvas.height) + 1)));
+                }
+                switch (cote) {
+                    case 1:
+                        tableauMonster.push(new Monster(-20, (Math.floor(Math.random() * canvas.height) + 1)));
+                        break;
+                    case 2:
+                        tableauMonster.push(new Monster((Math.floor(Math.random() * canvas.width) + 1), -20 ));
+                        break;
+                    case 3:
+                        tableauMonster.push(new Monster(canvas.width+20, (Math.floor(Math.random() * canvas.height) + 1)));
+                        break;
+                    case 4:
+                        tableauMonster.push(new Monster((Math.floor(Math.random() * canvas.width) + 1), canvas.height+20));
+                        break;
+                }
+            }
+            //console.log("spawnInterval");
+
+        }, 900);
+
         // spritesInterval = setInterval(function(){
         //     poulpy.deplSRC = './Sprites/Poulpe/Deplacement/Deplacement_01.png';
         //     poulpy.neutreSRC = './Sprites/Poulpe/Neutre/Neutre_01.png'; }, 700);
@@ -71,8 +90,6 @@ var GameFramework = function () {
     }
 
     function clicked(evt) {
-        console.log("You pressed button: " + evt.button);
-
         if (evt.button == "0") {
             poulpy.isOnAttack = true;
             poulpy.frameIndex = 0;
@@ -258,6 +275,18 @@ var GameFramework = function () {
             this.height = 40;
             this.v = 3;
             this.angle = 0;
+
+
+            this.img = new Image();
+            this.deplSRC = './Sprites/Enemies/Poisson_move.png';
+            this.attackSRC = './Sprites/Enemies/JoySimple/Attaque/Poisson_attaque.png';
+            this.isMooving = false;
+
+            this.frameIndex = 1;
+            this.tickCount = 0;
+            this.ticksPerFrame = 16;
+
+            this.isOnAttack = false;
         }
 
 
@@ -266,10 +295,16 @@ var GameFramework = function () {
             var dy = this.y - poulpy.y;
             this.angle = Math.atan2(dy, dx);
 
-            if (dist(this.x, poulpy.x, this.y, poulpy.y) > 100) {
+            this.tickCount += 1;
+
+            if (dist(this.x, poulpy.x, this.y, poulpy.y) > 200) {
+                this.isMooving = true;
                 //console.log("distance de poulpy : "+dist(p.x, poulpy.x, p.y, poulpy.y));
                 this.x -= this.v * Math.cos(this.angle);
                 this.y -= this.v * Math.sin(this.angle);
+            }
+            else{
+                this.isMooving = false;
             }
             // 2 - on dessine dans le canvas
             this.drawMonster();
@@ -277,20 +312,37 @@ var GameFramework = function () {
         }
 
         drawMonster() {
-
             // bonne pratique: sauver au début et restaurer le contexte à la fin
             ctx.save();
 
             // These two lines move the coordinate system
             ctx.translate(this.x, this.y);
-            ctx.rotate(this.angle);
+            ctx.rotate(this.angle + 90);
             // recenter the coordinate system in the middle
             // the rectangle. Like that it will rotate around
             // this point instead of top left corner
             ctx.translate(-this.width / 2, -this.height / 2);
 
-            ctx.fillStyle = "red";
-            ctx.fillRect(0, 0, this.width, this.height);
+            ctx.drawImage(this.img, 0, 0, 70, 85, 0, 0, 70, 85);
+
+            this.tickCount++;
+
+            if (this.tickCount === this.ticksPerFrame) {
+                if (this.isOnAttack) {
+                    this.frameIndex++;
+                    this.img.src = this.deplSRC;
+                    ctx.drawImage(this.img, this.frameIndex * 280, 0, 280, 280, 0, 0, 280, 280);
+                    this.isOnAttack = this.frameIndex < 2 ? true : false;
+                }
+                else {
+                    this.frameIndex = this.frameIndex === 1 ? 2 : 1;
+                    this.img.src = this.deplSRC;
+                    ctx.drawImage(this.img, this.frameIndex * 280, 0, 280, 280, 0, 0, 280, 280);
+                }
+                this.tickCount = 0;
+            }
+
+            //ctx.fillRect(0, 0, this.width, this.height);
             ctx.restore();
         }
     }

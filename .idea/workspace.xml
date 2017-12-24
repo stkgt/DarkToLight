@@ -28,8 +28,8 @@
       <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="298" column="33" lean-forward="false" selection-start-line="298" selection-start-column="33" selection-end-line="298" selection-end-column="33" />
+            <state relative-caret-position="-442">
+              <caret line="151" column="35" lean-forward="false" selection-start-line="151" selection-start-column="35" selection-end-line="151" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -249,7 +249,7 @@
       <workItem from="1513817095903" duration="76000" />
       <workItem from="1513843605964" duration="6280000" />
       <workItem from="1513931528264" duration="1429000" />
-      <workItem from="1514137661224" duration="1901000" />
+      <workItem from="1514137661224" duration="2870000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des sprites et debut jeu">
       <created>1512928945216</created>
@@ -279,11 +279,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513932487385</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Modification spawn monstre + ajout de l'incrementation du score">
+      <created>1514139917710</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1514139917710</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78734000" />
+    <option name="totallyTimeSpent" value="79703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -320,7 +327,9 @@
     <MESSAGE value="Ajout des sprites et debut jeu" />
     <MESSAGE value="Ajout animations sprites et modification gameplay" />
     <MESSAGE value="Gestion spawn monstres + sprites monstres" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gestion spawn monstres + sprites monstres" />
+    <MESSAGE value="Modification spawn monstre + ajout de l'incrementation du score" />
+    <MESSAGE value="Affichage Score + modification interval animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Affichage Score + modification interval animation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -655,8 +664,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="298" column="33" lean-forward="false" selection-start-line="298" selection-start-column="33" selection-end-line="298" selection-end-column="33" />
+        <state relative-caret-position="-442">
+          <caret line="151" column="35" lean-forward="false" selection-start-line="151" selection-start-column="35" selection-end-line="151" selection-end-column="35" />
           <folding />
         </state>
       </provider>

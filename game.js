@@ -59,11 +59,6 @@ var GameFramework = function () {
         }, 1500);
 
         scoreInterval = setInterval(function () {
-            ctx.save();
-            ctx.translate(0, 0);
-            ctx.font = "30px Arial";
-            ctx.fillText("Score = " + score,100,100);
-            ctx.restore();
             score++;
 
         }, 1000);
@@ -79,6 +74,13 @@ var GameFramework = function () {
     function mainloop() {
         // 1) clear screen
         ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        //Affichage Score
+        ctx.save();
+        ctx.translate(0, 0);
+        ctx.font = "30px Arial";
+        ctx.fillText("Score = " + score,60,60);
+        ctx.restore();
 
 
         tableauMonster.forEach(function (p) {
@@ -147,7 +149,7 @@ var GameFramework = function () {
 
             this.frameIndex = 1;
             this.tickCount = 0;
-            this.ticksPerFrame = 16;
+            this.ticksPerFrame = 32;
 
             this.isOnAttack = false;
             this.tickAttack = 0;

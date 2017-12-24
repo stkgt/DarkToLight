@@ -1,9 +1,13 @@
 body
 {
-    margin: 0;
+    background-size: 100%;
+   /* background: url("./Sprites/Background/BG_6.png") repeat;*/
+    overflow: hidden;
+    margin :0;
+    padding :0;
 }
 #myCanvas
 {
-    border: 1px solid black;
-    background-color: #101010;
+    background-color: white;
 }
+

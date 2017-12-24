@@ -6,18 +6,12 @@ function init() {
 var GameFramework = function () {
 
     var canvas, ctx, width, height;
-    var rect = {
-        x: (window.innerWidth - 22) / 2,
-        y: (window.innerHeight - 22) / 2,
-        radius: 30,
-        width: 40,
-        height: 40,
-        v: 3
-    };
     var mousepos = {x: (window.innerWidth - 20) / 2, y: (window.innerHeight - 20) / 2};
     var poulpy;
     var tableauMonster = [];
     var spawnInterval;
+    var scoreInterval;
+    var score = 0;
 
 
     var start = function () {
@@ -41,7 +35,7 @@ var GameFramework = function () {
 
         spawnInterval = setInterval(function () {
             var cote = Math.floor(Math.random() * 4) + 1;
-            if((Math.floor(Math.random() * 100) + 1)<=20){
+            if((Math.floor(Math.random() * 1000) + 1)<=250){
                 if(cote === 1){
                     tableauMonster.push(new Monster(-20, (Math.floor(Math.random() * canvas.height) + 1)));
                 }
@@ -62,7 +56,17 @@ var GameFramework = function () {
             }
             //console.log("spawnInterval");
 
-        }, 900);
+        }, 1500);
+
+        scoreInterval = setInterval(function () {
+            ctx.save();
+            ctx.translate(0, 0);
+            ctx.font = "30px Arial";
+            ctx.fillText("Score = " + score,100,100);
+            ctx.restore();
+            score++;
+
+        }, 1000);
 
         // spritesInterval = setInterval(function(){
         //     poulpy.deplSRC = './Sprites/Poulpe/Deplacement/Deplacement_01.png';
@@ -109,31 +113,6 @@ var GameFramework = function () {
         return Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
     }
 
-
-    function drawRectangle(angle) {
-
-        var img = new Image();
-
-        img.onload = function () {
-            ctx.drawImage(img, rect.x, rect.y, rect.width, rect.height);
-            ctx.rotate(angle);
-            ctx.translate(-rect.width / 2, -rect.height / 2);
-        };
-        img.src = './Sprites/Poulpe/Deplacement/Deplacement_01.png';
-
-        // ctx.save();
-        //
-        // // These two lines move the coordinate system
-        // ctx.translate(rect.x, rect.y);
-        // ctx.rotate(angle);
-        // // recenter the coordinate system in the middle
-        // // the rectangle. Like that it will rotate around
-        // // this point instead of top left corner
-        // ctx.translate(-rect.width/2, -rect.height/2);
-        //
-        // ctx.fillRect(0, 0, rect.width, rect.height);
-        // ctx.restore();
-    }
 
     function getMousePos(canvas, evt) {
         // necessary to take into account CSS boudaries
@@ -317,7 +296,7 @@ var GameFramework = function () {
 
             // These two lines move the coordinate system
             ctx.translate(this.x, this.y);
-            ctx.rotate(this.angle + 90);
+            ctx.rotate(this.angle);
             // recenter the coordinate system in the middle
             // the rectangle. Like that it will rotate around
             // this point instead of top left corner

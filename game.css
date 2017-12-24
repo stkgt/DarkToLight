@@ -1,5 +1,15 @@
+body{
+    margin:0;
+    padding :0;
+    overflow:hidden;
+}
+#audioPlayer
+{
+    visibility: hidden;
+}
 #myCanvas
 {
+
     border: 1px solid black;
     /*cursor: url("./Sprites/Interface/Cursor.png"),url("./Sprites/Interface/Cursor.cur"), auto;*/
     background: url('./Sprites/Background/BG_5.png') no-repeat center center;

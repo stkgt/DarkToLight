@@ -1,6 +1,15 @@
+let audio
+
 function init() {
     var game = new GameFramework();
+    audio= document.querySelector("#audioPlayer");
+    musiquePlay();
     game.start();
+}
+
+function musiquePlay()
+{
+    audio.play();
 }
 
 var GameFramework = function () {

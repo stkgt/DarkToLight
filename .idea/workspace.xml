@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <list default="true" id="616c7200-f6bd-4f69-bab6-08f6d3cd87eb" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Neutre/Neutre.png" />
+=======
+    <list default="true" id="616c7200-f6bd-4f69-bab6-08f6d3cd87eb" name="Default" comment="Correction Git, ajout de l'image manquante Neutre">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gameWithAssetLoader.js" />
+>>>>>>> master
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menu.js" afterPath="$PROJECT_DIR$/Menu.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StyleSheet.css" afterPath="$PROJECT_DIR$/StyleSheet.css" />
@@ -52,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game.js">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -71,6 +76,16 @@
 =======
             <state relative-caret-position="-573">
               <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gameWithAssetLoader.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gameWithAssetLoader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -385,14 +400,14 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\GestionProjet\DarkToLight\Sprites\Poulpe\Death" />
+      <recent name="C:\wamp64\www\GestionProjet\DarkToLight\Sprites\Interface" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\GestionProjet\DarkToLight" />
       <recent name="C:\wamp64\www\GestionProjet\DarkToLight\Sprites" />
       <recent name="C:\wamp64\www\GestionProjet\DarkToLight\Sprites\Background" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\GestionProjet\DarkToLight\Sprites\Poulpe\Death" />
-      <recent name="C:\wamp64\www\GestionProjet\DarkToLight\Sprites\Interface" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -459,7 +474,7 @@
       <workItem from="1514418384153" duration="612000" />
       <workItem from="1515066293825" duration="4933000" />
       <workItem from="1515332211020" duration="762000" />
-      <workItem from="1515568360422" duration="1124000" />
+      <workItem from="1515568360422" duration="1304000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des sprites et debut jeu">
       <created>1512928945216</created>
@@ -519,10 +534,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515568733786</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Correction Git, ajout de l'image manquante Neutre">
+      <created>1515569534180</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1515569534180</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="79703000" />
@@ -549,11 +572,15 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
 =======
     <option name="totallyTimeSpent" value="91382000" />
+=======
+    <option name="totallyTimeSpent" value="91562000" />
+>>>>>>> master
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14479166" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14479166" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
 >>>>>>> master
@@ -601,7 +628,8 @@
     <MESSAGE value="Modification spawn monstre + ajout de l'incrementation du score" />
     <MESSAGE value="Affichage Score + modification interval animation" />
     <MESSAGE value="Correction Git, ajout de l'image manquante Deplacement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction Git, ajout de l'image manquante Deplacement" />
+    <MESSAGE value="Correction Git, ajout de l'image manquante Neutre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction Git, ajout de l'image manquante Neutre" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -610,6 +638,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
@@ -706,6 +735,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/StyleSheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1119,6 +1150,14 @@
         <state relative-caret-position="-573">
           <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="26" />
 >>>>>>> master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gameWithAssetLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

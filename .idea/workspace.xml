@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
 <<<<<<< Updated upstream
     <list default="true" id="616c7200-f6bd-4f69-bab6-08f6d3cd87eb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sprites/Poulpe/Neutre/Neutre.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Menu.js" afterPath="$PROJECT_DIR$/Menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StyleSheet.css" afterPath="$PROJECT_DIR$/StyleSheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game.js" afterPath="$PROJECT_DIR$/game.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
 =======
     <list default="true" id="616c7200-f6bd-4f69-bab6-08f6d3cd87eb" name="Default" comment="Ajout des sprites et debut jeu" />
@@ -38,9 +42,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="67" lean-forward="false" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
             <state relative-caret-position="-442">
               <caret line="151" column="35" lean-forward="false" selection-start-line="151" selection-start-column="35" selection-end-line="151" selection-end-column="35" />
@@ -53,6 +68,20 @@
               <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+            <state relative-caret-position="-573">
+              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loadAssetExemple.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loadAssetExemple.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="105" column="36" lean-forward="false" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="36" />
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -172,9 +201,15 @@
       <find>fillStyle</find>
       <find>htt</find>
       <find>this.po</find>
+<<<<<<< HEAD
 =======
       <find>dra</find>
 >>>>>>> Stashed changes
+=======
+      <find>Image</find>
+      <find>url</find>
+      <find>src</find>
+>>>>>>> master
     </findStrings>
     <replaceStrings>
       <replace>Poulpe</replace>
@@ -200,7 +235,11 @@
         <option value="$PROJECT_DIR$/Monster.js" />
         <option value="$PROJECT_DIR$/Poulpe.js" />
         <option value="$PROJECT_DIR$/game.html" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+        <option value="$PROJECT_DIR$/loadAssetExemple.js" />
+>>>>>>> master
         <option value="$PROJECT_DIR$/game.js" />
 =======
         <option value="$PROJECT_DIR$/index.html" />
@@ -227,9 +266,13 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <option name="x" value="1039" />
     <option name="y" value="-12" />
+=======
+    <option name="x" value="953" />
+>>>>>>> master
     <option name="width" value="974" />
     <option name="height" value="1047" />
 =======
@@ -254,6 +297,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -271,11 +315,15 @@
               <item name="DarkToLight" type="b2602c69:ProjectViewProjectNode" />
               <item name="DarkToLight" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Sprites" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
               <item name="Enemies" type="2a2b976b:PhpTreeStructureProvider$1" />
 =======
               <item name="Background" type="2a2b976b:PhpTreeStructureProvider$1" />
 >>>>>>> Stashed changes
+=======
+              <item name="Background" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> master
             </path>
             <path>
               <item name="DarkToLight" type="b2602c69:ProjectViewProjectNode" />
@@ -283,7 +331,6 @@
               <item name="Sprites" type="2a2b976b:PhpTreeStructureProvider$1" />
 <<<<<<< Updated upstream
               <item name="Enemies" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="JoySimple" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="DarkToLight" type="b2602c69:ProjectViewProjectNode" />
@@ -316,11 +363,17 @@
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
 >>>>>>> Stashed changes
             </path>
+            <path>
+              <item name="DarkToLight" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DarkToLight" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sprites" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Poulpe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Neutre" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,6 +386,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\GestionProjet\DarkToLight" />
       <recent name="C:\wamp64\www\GestionProjet\DarkToLight\Sprites" />
       <recent name="C:\wamp64\www\GestionProjet\DarkToLight\Sprites\Background" />
     </key>
@@ -400,7 +454,12 @@
       <workItem from="1513817095903" duration="76000" />
       <workItem from="1513843605964" duration="6280000" />
       <workItem from="1513931528264" duration="1429000" />
-      <workItem from="1514137661224" duration="2870000" />
+      <workItem from="1514137661224" duration="4846000" />
+      <workItem from="1514154107675" duration="2272000" />
+      <workItem from="1514418384153" duration="612000" />
+      <workItem from="1515066293825" duration="4933000" />
+      <workItem from="1515332211020" duration="762000" />
+      <workItem from="1515568360422" duration="1124000" />
     </task>
     <task id="LOCAL-00001" summary="Ajout des sprites et debut jeu">
       <created>1512928945216</created>
@@ -446,10 +505,25 @@
       <option name="project" value="LOCAL" />
       <updated>1514139917710</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Affichage Score + modification interval animation">
+      <created>1514141104614</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1514141104614</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Correction Git, ajout de l'image manquante Deplacement">
+      <created>1515568733786</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1515568733786</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="79703000" />
 =======
@@ -473,11 +547,22 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
 >>>>>>> Stashed changes
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="91382000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14479166" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+>>>>>>> master
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -485,6 +570,10 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39936608" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
 >>>>>>> Stashed changes
+=======
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+>>>>>>> master
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -511,7 +600,8 @@
     <MESSAGE value="Gestion spawn monstres + sprites monstres" />
     <MESSAGE value="Modification spawn monstre + ajout de l'incrementation du score" />
     <MESSAGE value="Affichage Score + modification interval animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Affichage Score + modification interval animation" />
+    <MESSAGE value="Correction Git, ajout de l'image manquante Deplacement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction Git, ajout de l'image manquante Deplacement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,6 +610,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
     <entry file="file://$PROJECT_DIR$/StyleSheet.css">
@@ -606,6 +697,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -765,13 +858,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Attaque_3/Attaque_33.png">
 =======
     <entry file="file://$PROJECT_DIR$/Sprites/Poulpe/Dash/Dash_02.png">
@@ -817,13 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Poulpe.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -835,14 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="45" column="1" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Monster.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,6 +1005,7 @@
 <<<<<<< Updated upstream
         <state relative-caret-position="153">
           <caret line="301" column="42" lean-forward="true" selection-start-line="301" selection-start-column="42" selection-end-line="301" selection-end-column="42" />
+<<<<<<< HEAD
 =======
         <state relative-caret-position="181">
           <caret line="319" column="38" lean-forward="false" selection-start-line="319" selection-start-column="38" selection-end-line="319" selection-end-column="38" />
@@ -942,16 +1014,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="62" lean-forward="false" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.727/DarkToLight-master/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.361/DarkToLight-master/game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.668/DarkToLight-master/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Monster.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.383/DarkToLight-master/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loadAssetExemple.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="105" column="36" lean-forward="false" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="36" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="170">
           <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="41" />
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+        <state relative-caret-position="85">
+          <caret line="5" column="67" lean-forward="false" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
@@ -975,6 +1105,7 @@
 <<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/game.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-442">
           <caret line="151" column="35" lean-forward="false" selection-start-line="151" selection-start-column="35" selection-end-line="151" selection-end-column="35" />
 =======
@@ -984,6 +1115,10 @@
           <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+        <state relative-caret-position="-573">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="26" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
